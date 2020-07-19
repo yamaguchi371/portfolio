@@ -33,18 +33,10 @@ h2 {
 }
 
 h3 {
-    font-size: 2.441em;
-}
-
-h4 {
-    font-size: 1.953em;
-}
-
-h5 {
     font-size: 1.563em;
 }
 
-h6 {
+h4, h5, h6 {
     font-size: 1.25em;
 }
 
@@ -87,30 +79,63 @@ main
 --------------*/
 
 .main {
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    /* padding-left: 0.8em;
+    padding-right: 0.8em; */
     background: var(--base-color);
+    font-family: 'Noto Sans JP';
 }
 
 /*---------------
 sectionのスタイル
 -----------------*/
+section {
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #cccccc;
+}
 
 .section-title {
-    max-width: 80%;
+    max-width: 100%;
     color: var(--base-color);
     font-family: var(--title-font);
     font-weight: bold;
     letter-spacing: 0.15em;
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
     background: var(--main-color);
     border-left: 1rem solid #d94b32;
 }
 .section-title-description {
     font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2.5em;
+    padding-left: 1em;
 }
 
 .section01 img {
     max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.skill-description {
+    margin: 2em auto 1em;
+    max-width: 300px;
+    word-break: normal;
+}
+
+.section02 {
+    background: #b7e4e4;
+}
+
+.work-image {
+    margin-top: 1rem;
+    max-width: 400px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    filter: brightness(86%) contrast(120%);
+}
+.work-image-title {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-family: "Noto Serif JP", serif;
 }

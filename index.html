@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;900&family=Noto+Serif+JP:wght@400;700;900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -22,29 +25,52 @@
             alt="">
             </h1>
         </header>
-        <div class="container">
-            <main id="main" class="main">
-                <section id="section01" class="row justify-content-between section01">
-                    <h2 class="section-title col-12">Skill</h2>
-                    <p class="section-title-description col-12">所持するスキル</p>
-                    <div class="text-center col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <main id="id" class="main">
+            <section id="section01" class="section01">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <h2 class="section-title col-12">Skill</h2>
+                        <h3 class="section-title-description col-12">所持しているスキル</h3>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <img src="images/wordpress-cian.svg" alt="WordPress">
+                        <p class="skill-description text-left">WordPressでは静的ＨＴＭＬのテーマ化、カスタマイズ、各種プラグインを使用してのサイト制作などができます。</p>
                     </div>
-                    <div class="text-center col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <img src="images/jquery.svg" alt="jquery">
+                        <p class="skill-description text-left">jQueryを使用してスライドショーやアコーディオンメニュー、アニメーションを作れます。</p>
                     </div>
-                    <div class="text-center col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <img src="images/bootstrap_plain_logo_icon_146619.svg" alt="bootstrap">
+                        <p class="skill-description text-left">有名なＣＳＳフレームワークであるBootstrapを使ってサイト制作に掛かる時間を短縮できます。</p>
                     </div>
-                </section>
-                <section id="section02" class="section02"></section>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    MMMMM
+                    </div>
                 </div>
-            </div>
-            </main>
-        </div>
+            </section>
+            <section id="section02" class="section02">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <h2 class="section-title col-12">Works</h2>
+                        <h3 class="section-title-description col-12">制作実績</h3>
+                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <a href="http://kobotenpo.jp/" target="_blank">
+                                <img src="images/tenpo.jpg" alt="" class="work-image">
+                            </a>
+                            <h4 class="work-image-title">ステンドグラス宝珠工房てんぽぅ</h4>
+                        </div>
+                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <img src="images/hattori.jpg" alt="" class="work-image">
+                        </div>
+                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <img src="images/kawabata.jpg" alt="" class="work-image">
+                        </div>
+                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <img src="images/labwel.jpg" alt="" class="work-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
         <footer id="footer" class="footer"></footer>
     </div>
 </body>
