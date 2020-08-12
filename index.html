@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Under_The_Water</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,18 +11,19 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;900&family=Noto+Serif+JP:wght@400;700;900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="loading" class="load4">
+        <div class="loader"></div>
+    </div>
     <div class="wrapper">
         <header id="header" class="header">
             <h1>
-                <span id="title" class="title">portfolio</span>
-                <img srcset="images/manta-1200.jpg 990w,
-                        images/manta-1920.jpg 1200w"
-            alt="">
+                <span id="title" class="title">Under The Water</span>
+                <picture>
+                    <source media="(max-width: 768px)" srcset="images/manta-1200.jpg 1232w" sizes="100vw">
+                    <img src="images/manta-1920.jpg" alt="mainimage">
+                </picture>
             </h1>
         </header>
         <main id="id" class="main">
@@ -51,27 +52,51 @@
                     <div class="row justify-content-between">
                         <h2 class="section-title col-12">Works</h2>
                         <h3 class="section-title-description col-12">制作実績</h3>
-                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <a href="http://kobotenpo.jp/" target="_blank">
-                                <img src="images/tenpo.jpg" alt="" class="work-image">
-                            </a>
-                            <h4 class="work-image-title">ステンドグラス宝珠工房てんぽぅ</h4>
+                        <div class="text-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="work">
+                                <a href="http://kobotenpo.jp/" target="_blank">
+                                    <div class="work-image work-image01"></div>
+                                </a>
+                            </div>
+                            <h4 class="work-image-title">ステンドグラス宝珠工房<br class="d-lg-none">てんぽぅ</h4>
                         </div>
-                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <img src="images/hattori.jpg" alt="" class="work-image">
+                        <div class="text-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="work">
+                                <a href="https://naenohattori.com/" target="_blank">
+                                    <div class="work-image work-image02"></div>
+                                </a>
+                            </div>
+                            <h4 class="work-image-title">苗のはっとり</h4>
                         </div>
-                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <img src="images/kawabata.jpg" alt="" class="work-image">
+                        <div class="text-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="work">
+                                <a href="https://www.kawabata-koumuten.com/" target="_blank">
+                                    <div class="work-image work-image03"></div>
+                                </a>
+                            </div>
+                            <h4 class="work-image-title">川端工務店</h4>
                         </div>
-                        <div class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <img src="images/labwel.jpg" alt="" class="work-image">
+                        <div class="text-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="work">
+                                <a href="">
+                                    <div class="work-image work-image04"></div>
+                                </a>
+                            </div>
+                            <h4 class="work-image-title">labwel</h4>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
         
-        <footer id="footer" class="footer"></footer>
+        <footer id="footer" class="footer">
+             © 2020 HirotakaYamaguchi
+        </footer>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
     </div>
 </body>
 </html>
