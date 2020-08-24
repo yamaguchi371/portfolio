@@ -200,6 +200,11 @@ section {
     padding-left: 1em;
 }
 
+.profile-p {
+  margin-top: 5rem;
+  height: 10rem;
+}
+
 .section01 img {
     max-width: 200px;
     display: block;
